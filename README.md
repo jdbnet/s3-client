@@ -37,3 +37,7 @@ services:
       MYSQL_PASSWORD: "<YOUR_MYSQL_PASSWORD>"
     restart: unless-stopped
 ```
+
+<hr>
+
+![Screenshot](img/screenshot.png)
