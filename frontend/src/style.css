@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html.dark,
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: #0f1419;
+}
+
+.app-shell {
+  background:
+    radial-gradient(circle at top left, rgba(61, 154, 237, 0.16), transparent 38%),
+    radial-gradient(circle at 80% 10%, rgba(61, 154, 237, 0.08), transparent 24%),
+    #0f1419;
+}
+
+.panel {
+  @apply rounded-xl border border-slate-800 bg-surface-raised shadow-float;
+}
+
+.field {
+  @apply w-full rounded-lg border border-slate-700 bg-surface-overlay px-3 py-2 text-sm text-white outline-none ring-accent focus:border-accent focus:ring-1;
+}
+
+.button-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-lg bg-accent px-4 py-2.5 text-sm font-medium text-slate-950 transition hover:bg-sky-400 disabled:opacity-50;
+}
+
+.button-secondary {
+  @apply inline-flex items-center justify-center gap-2 rounded-lg border border-slate-700 bg-surface-overlay px-4 py-2 text-sm font-medium text-slate-200 transition hover:border-slate-500;
+}
+
+.chip {
+  @apply inline-flex items-center gap-2 rounded-full border border-slate-700 bg-surface-overlay px-3 py-1 text-xs text-slate-300;
+}
+
+.tab-shell {
+  @apply rounded-lg border border-slate-800 bg-surface-raised shadow-float;
+}

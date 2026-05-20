@@ -1,0 +1,7 @@
+.devcontainer
+.git
+.gitea
+__pycache__
+*.pyc
+.env
+frontend/node_modules

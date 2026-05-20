@@ -1,0 +1,24 @@
+{
+  "name": "S3 Client",
+  "short_name": "S3",
+  "description": "Web-based S3 client",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#334155",
+  "theme_color": "#334155",
+  "icons": [
+    {
+      "src": "https://assets.jdbnet.co.uk/projects/s3_maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://assets.jdbnet.co.uk/projects/s3_maskable.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
